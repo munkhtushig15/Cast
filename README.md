@@ -1,5 +1,1 @@
-New Readme
-
-# Cast
-Temulentei hamtrav !
-tiimee Tushigte hamtarsan.
+I M  G A Y

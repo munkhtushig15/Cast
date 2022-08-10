@@ -3,24 +3,126 @@
 }
 .container {
     width: 100vw;
-    height: 100vh;
-    background-color: #0f172a;
+    height: 1270px;
+    background-color: #161d29;
     display: grid;
-    grid-template-columns: 40px auto;
-    grid-template-rows: 40px auto;
+    grid-template-columns: 70px 2150px;
+    grid-template-rows: 70px 1000px 200px;
 }
-#AnimaxLogo {
-    width: 35px;
-    height: 40px;
+aside {
+    grid-column: 1;
+    grid-row: 1 / 4;
+}
+header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+main {
+    grid-column: 2 / 3 ;
+    grid-row: 2 / 3;
+}
+footer {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+aside {
+    display: grid;
+    grid-template-rows: 70px 930px;
+    grid-template-columns: 70px;
+    background-color: #0f172a;
 }
 #logo {
-    grid-column: 1 / 1;
-    grid-row: 1 / 1;
+    width: 80%;
+    height: 80%;
+    padding: 5px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 12px;
+    gap: 12px;
+}
+.newStyle {
+    color: gray;
+    font-size: 40px !important;
+    transition: 0.5s;
+}
+.newStyle:hover {
+    color: #FFF;
+}
+.cate {
+    width: 30px;
+    height: 30px;
+    background-color: #0f172a;
+    border-radius: 20%;
+}
+.bars {
+    color: gainsboro;
+    font-size: 28px !important;
+}
+#SEARCH {
+    width: 300px;
+    height: 30px;
+    background-color: #0f172a;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.ring {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.bside {
-    background-color: #161d29;
-    
+.notif {
+    color: red;
+    font-size: 28px !important;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px;
+}
+.Profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.slotOne {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.garchig {
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.zurag {
+    padding-left: 15px;
+    padding-left: 7.5px;
+    width: 400px;
+    height: 240px;
+    transition: 1s;
+}
+.over {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 10px;
+}
+.zurag:hover {
+    transform: scale(1.5);
+    opacity: 0.5;
 }

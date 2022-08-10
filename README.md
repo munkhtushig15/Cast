@@ -1,2 +1,3 @@
 # Cast
-Temulentei hamtrav.
+Temulentei hamtrav !
+tiimee Tushigte hamtarsan.

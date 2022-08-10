@@ -9,3 +9,18 @@
     grid-template-columns: 40px auto;
     grid-template-rows: 40px auto;
 }
+#AnimaxLogo {
+    width: 35px;
+    height: 40px;
+}
+#logo {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bside {
+    background-color: #161d29;
+    
+}

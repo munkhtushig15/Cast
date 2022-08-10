@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0f172a;
+    display: grid;
+    grid-template-columns: 40px auto;
+    grid-template-rows: 40px auto;
+}

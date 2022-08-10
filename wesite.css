@@ -3,11 +3,11 @@
 }
 .container {
     width: 100vw;
-    height: 1270px;
+    height: 1000px;
     background-color: #161d29;
     display: grid;
-    grid-template-columns: 70px 2150px;
-    grid-template-rows: 70px 1000px 200px;
+    grid-template-columns: 60px auto;
+    grid-template-rows: 60px auto;
 }
 aside {
     grid-column: 1;
@@ -20,32 +20,58 @@ header {
 main {
     grid-column: 2 / 3 ;
     grid-row: 2 / 3;
+    background-color: #161d29;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-color: dark;
+    padding-bottom: 40px;
 }
-footer {
+/* .madaraUm {
+    grid-template-rows: 1 / 2;
+    grid-template-rows: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#madara {
+    width: 700px;
+    height: 600px;
+    border-radius: 30px;
+} */
+/* footer {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-}
+} */
 aside {
     display: grid;
-    grid-template-rows: 70px 930px;
-    grid-template-columns: 70px;
+    grid-template-rows: 60px auto;
+    grid-template-columns: 45px;
     background-color: #0f172a;
 }
+.animaxLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #logo {
-    width: 80%;
-    height: 80%;
-    padding: 5px;
+    width: 40px;
+    height: 40px;
+    position: sticky;
+    top: 10px;
+    left: 30px;
 }
 .menu {
     display: flex;
     flex-direction: column;
+    align-items: center ;
     padding-top: 10px;
     padding-left: 12px;
     gap: 12px;
+    cursor: pointer;
 }
 .newStyle {
     color: gray;
-    font-size: 40px !important;
+    font-size: 30px !important;
     transition: 0.5s;
 }
 .newStyle:hover {
@@ -54,19 +80,21 @@ aside {
 .cate {
     width: 30px;
     height: 30px;
-    background-color: #0f172a;
+    background-color: #161d29;
     border-radius: 20%;
 }
 .bars {
     color: gainsboro;
     font-size: 28px !important;
+    cursor: pointer;
 }
 #SEARCH {
-    width: 300px;
+    width: 500px;
     height: 30px;
     background-color: #0f172a;
-    border-radius: 20px;
+    border-radius: 10px;
     padding-left: 20px;
+    color: #FFF;
 }
 .ring {
     width: 40px;
@@ -76,6 +104,7 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .notif {
     color: red;
@@ -111,9 +140,10 @@ header {
 }
 .zurag {
     padding-left: 15px;
-    padding-left: 7.5px;
-    width: 400px;
-    height: 240px;
+    padding-left: 20px;
+    width: 280px;
+    height: 150px;
+    border-radius: 10px;
     transition: 1s;
 }
 .over {
@@ -123,6 +153,57 @@ header {
     gap: 10px;
 }
 .zurag:hover {
-    transform: scale(1.5);
-    opacity: 0.5;
+    transform: scale(1.2);
+}
+.footer {
+    padding-top: 60px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #161d29;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.red {
+    color: #6497b1;
+    transition: 0.6s
+}
+.red:hover {
+    color: #851e3e;
+}
+.aboutUs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    cursor: pointer;
+}
+.socialO {
+    font-size: 30px !important;
+    color: #6497b1;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.socialO:hover {
+    color:#851e3e;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.copyRight {
+    color: #6497b1;
+}
+.SOLO {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding-top: 40px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }

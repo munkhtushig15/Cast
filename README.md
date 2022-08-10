@@ -1,3 +1,1 @@
-# Cast
-Temulentei hamtrav !
-tiimee Tushigte hamtarsan.
+Tur IP ip ip ip
